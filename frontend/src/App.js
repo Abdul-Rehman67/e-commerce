@@ -1,8 +1,20 @@
-
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import {Container,Row,Col} from 'react-bootstrap';
+import './index.css'
 function App() {
   return (
     <>
-    wek=lc
+    <Header/>
+    <Container>
+
+    <main>
+      Proshop
+    </main>
+    </Container>
+    <Footer/> 
+
+   
     </>
   );
 }
